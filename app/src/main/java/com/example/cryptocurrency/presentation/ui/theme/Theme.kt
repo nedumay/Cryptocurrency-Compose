@@ -1,4 +1,4 @@
-package com.example.cryptocurrency.ui.theme
+package com.example.cryptocurrency.presentation.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
@@ -9,16 +9,17 @@ import androidx.compose.ui.graphics.Color
 
 private val DarkColorPalette = darkColors(
     primary = ColorPrimary,
-    background = DarkGrey,
+    background = DarkGray,
     onBackground = TextWhite,
-    onPrimary = DarkGrey
+    onPrimary = DarkGray
+
 )
 
 private val LightColorPalette = lightColors(
     primary = ColorPrimary,
     background = Color.White,
     onBackground = MediumGray,
-    onPrimary = DarkGrey
+    onPrimary = DarkGray
 )
 
 @Composable
