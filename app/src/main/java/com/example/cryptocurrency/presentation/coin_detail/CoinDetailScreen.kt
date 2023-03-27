@@ -14,11 +14,15 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
+import com.bumptech.glide.integration.compose.ExperimentalGlideComposeApi
+import com.bumptech.glide.integration.compose.GlideImage
 import com.example.cryptocurrency.presentation.coin_detail.CoinDetailViewModel
 import com.google.accompanist.flowlayout.FlowRow
 
+@OptIn(ExperimentalGlideComposeApi::class)
 @Composable
 fun CoinDetailScreen(
     viewModel: CoinDetailViewModel = hiltViewModel()
@@ -35,10 +39,20 @@ fun CoinDetailScreen(
                         modifier = Modifier.fillMaxWidth(),
                         horizontalArrangement = Arrangement.SpaceBetween
                     ) {
+                        GlideImage(
+                            model = "${coin.logo}",
+                            contentDescription = null,
+                            modifier = Modifier
+                                .size(50.dp)
+                                .align(CenterVertically)
+
+                        )
+                        Spacer(modifier = Modifier.width(8.dp))
                         Text(
-                            text = "${coin.rank}. ${coin.name} (${coin.symbol})",
+                            text = "${coin.name} (${coin.symbol})",
                             style = MaterialTheme.typography.h2,
-                            modifier = Modifier.weight(8f)
+                            modifier = Modifier.weight(6f)
+                                .align(CenterVertically)
                         )
                         Text(
                             text = if (coin.isActive) "active" else "inactive",
