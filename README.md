@@ -13,5 +13,5 @@ Tools and Libraries: Retrofit2, Coroutines, Jetpack Compose, Dagger2|Hilt, Glide
 
 Api: https://api.coinpaprika.com/
 
-![Screenshot_1682327894](https://user-images.githubusercontent.com/79632860/233956392-d5edf323-eb80-45e9-9734-342ba98c76a8.png)
-![Screenshot_1682327903](https://user-images.githubusercontent.com/79632860/233956399-91e1123a-4d92-4532-a69d-9a67a6b67465.png)
+![image](https://user-images.githubusercontent.com/79632860/233956561-7761c69f-60b8-406a-b51d-8b3e47e582d8.png)
+![image](https://user-images.githubusercontent.com/79632860/233956664-feb46ab4-c860-4d2f-b37b-8fd1da021e76.png)
