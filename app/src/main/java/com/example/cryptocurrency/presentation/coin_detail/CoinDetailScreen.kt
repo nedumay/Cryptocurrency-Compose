@@ -43,7 +43,7 @@ fun CoinDetailScreen(
                             model = "${coin.logo}",
                             contentDescription = null,
                             modifier = Modifier
-                                .size(50.dp)
+                                .size(20.dp)
                                 .align(CenterVertically)
 
                         )
