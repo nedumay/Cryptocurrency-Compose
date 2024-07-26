@@ -1,5 +1,5 @@
 # Cryptocurrency-Compose <img src="https://img.shields.io/badge/version-1.0.0-green" alt="App Version">
-A tutorial project on displaying a list of cryptocurrencies with temporary updates. update: 30.05.2023
+A training project on displaying a list of cryptocurrencies with temporary updates. update: 26.07.2024
 
 Application сapabilities:
 1. View a list of popular cryptocurrencies.
